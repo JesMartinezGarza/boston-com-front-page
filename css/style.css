@@ -1,0 +1,544 @@
+*{
+    box-sizing: border-box;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+img{
+    height: 65px;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+header > nav{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    text-align: left;
+}
+
+header > nav > ul{
+    list-style-type: none;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+
+    width: 100%;
+    height: fit-content;
+
+    margin: 0px 0px 0px 0px;
+}
+
+header > nav > ul > li{
+    display: inline-block;
+    text-align: center;
+    float: none;
+
+    margin: 0px 1% 0px 1%;
+}
+
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+
+    display: block;
+    text-align: center;
+    float: none;
+}
+
+header > nav > ul > li > a > img{
+    margin: 0px 0px -20px 0px;
+}
+
+#leftBig{
+    width: 65%;
+    height: fit-content;
+    float: left;
+    background-color: white;
+    padding: 150px 10% 0px 12%;
+}
+#leftBig > h1{
+    width: 100%;
+    border-bottom: 2.5px solid red;
+    margin: 0px 0px 10px 0px;
+}
+
+#leftBig > #one{
+    width: 65%;
+    height: fit-content;
+    float: left;
+}
+#leftBig > #one > #top{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#leftBig > #one > #top > a > img{
+    width: 95%;
+    height: 250px;
+    margin: 0px 0px 10px 0px;
+    float: left;
+}
+
+#leftBig > #one > #top > h1{
+    font-size: 1.5em;
+
+    width: 90%;
+
+    display: inline-block;
+    text-align: left;
+    float: none;
+
+    margin: 0px 5% 0px 0px;
+    padding: 0px 5% 0px 0px;
+}
+
+#leftBig > #one > #leftBottom{
+    width: 50%;
+    height: auto;
+    float: left;
+
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+#leftBottom > a{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1em;
+    float: left;
+}
+#one > #leftBottom > a > img{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+    width: 90%;
+    height: auto;
+    font-size: 1em;
+    float: left;
+}
+
+#leftBottom > h1{
+    padding: 0px 5% 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1em;
+
+    width: 90%;
+
+    display: inline-block;
+    text-align: left;
+    float: none;
+}
+
+
+#leftBig > #one > #rightBottom{
+    width: 50%;
+    height: 50px;
+    float: left;
+
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+#rightBottom > a{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1em;
+    float: left;
+}
+#one > #rightBottom > a > img{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
+    width: 90%;
+    height: auto;
+    font-size: 1em;
+    float: left;
+}
+#rightBottom > h1{
+    padding: 0px 5% 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1em;
+
+    width: 90%;
+
+    display: inline-block;
+    text-align: left;
+    float: none;
+}
+
+#leftBig > #two{
+    width: 35%;
+    float: left;
+}
+
+#two > ul{
+    list-style-type: none;
+    float: left;
+}
+
+#two > ul > li{
+    float: left;
+    height: auto;
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid gainsboro;
+}
+
+#two > ul > li > div{
+    margin: 0px 0px 0px 0px;
+    height: auto;
+    float: left;
+}
+
+#two > ul > li > div > h1{
+    float: left;
+    margin: 5px 0px 5px 5px;
+    font-size: 1em;
+}
+#two > ul > li > div > h1 > a{
+    text-decoration: none;
+    color: red;
+}
+
+#two > ul > li > div > span{
+    text-decoration: none;
+    float: left;
+    margin: 0px 0px 10px 5px;
+    font-size: .9em;
+}
+
+#two > ul > li > div > span > a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#rightBig{
+    width: 35%;
+    height: fit-content;
+    float: left;
+    background-color: white;
+}
+
+#rightBig > a > img{
+    height: auto;
+    width: 50%;
+    margin: 150px 0px 0px 50px;
+}
+
+#rightBig > #mostPop{
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+#rightBig > #mostPop > h1{
+    font-size:1.75em;
+    width: 75%;
+    margin: 0px 0px 0px 10px;
+    border-bottom: 2.5px solid red;
+}
+
+
+#rightBig > #mostPop > ol{
+    width: 75%;
+    margin: 20px 0px 0px 20px;
+}
+
+#rightBig > #mostPop > ol > li{
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#rightBig > #mostPop > ol > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+#rightBig > #mostPop > ol > li > a + a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    clear: both;
+    font-weight: bold;
+}
+
+
+#bigBottom{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    float: left;
+}
+#bigBottom > div{
+    width: 65%;
+    height: fit-content;
+    background-color: white;
+    border-top: 5px solid gainsboro;
+    border-bottom: 5px solid gainsboro;
+    margin: 50px 0px 0px 50px;
+}
+
+#bigBottom > div > #top{
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+
+
+#bigBottom > div > #top > h1{
+    font-size: 1.75em;
+    margin: 10px 0px 10px 0px;
+    float: left;
+}
+
+#bigBottom > div > #top > h1 > span{
+    color: red;
+}
+
+#bigBottom > div > #top > span{
+    float: left;
+    margin: 15px 0px 10px 20px;
+    font-size: 1.25em;
+}
+
+#bigBottom > div > #top > span > a{
+    text-decoration: underline;
+    color: gray
+}
+
+
+#bigBottom > div > #left{
+    width: 40%;
+    clear: both;
+    float: left;
+    background-color: white;
+    
+}
+
+#bigBottom > div > #left > a{
+    margin: 0px 10px 10px 0px;
+}
+#bigBottom > div > #left > a > img{
+    width: 100%;
+    height: auto;
+}
+#bigBottom > div > #left > h1{
+    padding: 10px 10px 10px 0px;
+    font-size: 1.65em;
+
+}
+
+#bigBottom > div > #right{
+    width: 60%;
+    height: auto;
+    float: left;
+    background-color: white;
+    padding: 20px 20px 0px 20px;
+}
+
+#bigBottom > div > #right > h3{
+    text-decoration: none;
+    color: black;
+    height: auto;
+    border-bottom: 1px solid gray;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 20px 0px;
+}
+#bigBottom > div > #right > h3 > a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 0px 10px 0px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    float: left;
+}
+
+footer > nav{
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+    float: none;
+}
+
+#leftBlock{
+    width: auto;
+    height: fit-content;
+
+    margin: 20px 2% 0px 2%;
+    display: inline-block;
+    text-align: left;
+    float: none;
+}
+#RightBlock{
+    width: 20%;
+    height: fit-content;
+
+    display: inline-block;
+    text-align: right;
+    float: none;
+}
+
+footer > nav > div > #left{
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+footer > nav > div > #left > li{
+    list-style-type: none;
+    margin: 0px 10px 0px 0px;
+
+    display: inline;
+    text-align: center;
+    float: none;
+}
+footer > nav > div > #left > li > a{
+    margin: 0px 0px 0px 0px;
+}
+footer > nav > div > #left > li > a > img{
+    height: 45px;
+    width: 45px;
+}
+
+
+footer > nav > div > #rightTop{
+    background-color: white;
+
+    width: fit-content;
+    height: fit-content;
+
+    margin: -52.5px 1% 0px 0px;
+    display: block;
+    text-align: right;
+    float: right;
+}
+footer > nav > div > #rightTop > li{
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+}
+footer > nav > div > #rightTop > li > span{
+    font-size: 1.10em;
+}
+
+footer > nav > div > #rightBottom{
+    clear: right;
+
+    background-color: white;
+    margin: -25px 1% 0px 0px;
+
+    width: 100%;
+
+    display: block;
+    text-align: center;
+    float: right;
+}
+footer > nav > div > #rightBottom >li{
+    list-style-type: none;
+    float: right;
+    margin: 0px 0px 0px 2%;
+}
+
+footer > nav > div > #rightBottom >li > span{
+    padding: 0px 0px 0px 0px;
+}
+
+footer > nav > div > #rightBottom >li > span > a{
+    text-decoration: none;
+    color: blue;
+}
+
+header > nav > ul > .impossibleBurger{
+    display: none;
+}
+
+header > nav > ul > .impossibleBurger > a > img{
+    height: 25px;
+    width: 25px;
+}
+
+@media screen and (max-width: 1130px){
+    header > nav > ul > .impossibleBurger{
+    display: block;
+    text-align: left;
+    float: right;
+    margin: 10px 10% 0px 0px;
+    }
+    header > nav > ul > .impossibleBurger > a > img{
+        height: 45px;
+        width: 45px;
+    }
+
+    header > nav > ul > .buttonTemp{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px){
+    #leftBig{
+        width: 100%;
+    }
+    #rightBig{
+        width: 100%;
+        margin: 50px 5% 50px 10%;
+    }
+    #advert{
+        display: none;
+    }
+    #leftBig > #one > #leftBottom{
+        width: 100%;
+    }
+    #leftBig > #one > #rightBottom{
+        width: 100%;
+        margin: 0px 0px 200px 0px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #bigBottom{
+        width: 100%;
+        margin: 0px 5% 0px 5%;
+        padding: 0px 0px 50px 0px;
+    }
+
+    #bigBottom > div > #left{
+        width: 100%;
+    }
+
+    #bigBottom > div > #right{
+        width: 100%;
+    }
+
+    #leftBig > #one{
+        width: 100%;
+    }
+
+    #leftBig > #two{
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+    }
+
+    #two>ul>li>div>span{
+        clear: both;
+    }
+    #two>ul>li>div>#loveLetters{
+        display: none;
+    }
+
+}
+
